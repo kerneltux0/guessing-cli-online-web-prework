@@ -10,8 +10,6 @@ def run_guessing_game
 			puts "You guessed the correct number!"
 		elsif userInput != number
 			puts "The computer guessed #{number}."
-		else
-		  nil
 		end
 	end
 end
